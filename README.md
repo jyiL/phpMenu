@@ -1,10 +1,10 @@
 #	Menu类
 
-1 方法calculate, 输入订单后(json字符串，结构如上题), 输出格价
-2 方法discount, 可设定折扣，输出格价时自动计算折扣
-3 静态方法counter。输出calculate方法被调用的次数
+1. 方法calculate, 输入订单后(json字符串，结构如上题), 输出格价
+2. 方法discount, 可设定折扣，输出格价时自动计算折扣
+3. 静态方法counter。输出calculate方法被调用的次数
 
----
+```
 
 <?php
 
@@ -112,4 +112,4 @@
 			@$num = file_get_contents('counter');
 			return strlen($num);
 		}
-	}`
+	}```
