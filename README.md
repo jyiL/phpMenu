@@ -4,6 +4,24 @@
 2. 方法discount, 可设定折扣，输出格价时自动计算折扣
 3. 静态方法counter。输出calculate方法被调用的次数
 
+
+```
+
+$order = '[{"food_id":1,"num":2},{"food_id":3,"num":1},{"food_id":6,"num":2},{"food_id":7,"num":1}]';
+include __DIR__.'/Menu.class.php';
+echo '<pre>';
+$test = new Menu();
+// var_dump($test->foodMenu());
+// var_dump($test->discount('20%'));
+// var_dump($test->calculate($order));
+// var_dump($test::counter());
+
+```
+
+
+
+
+
 ```
 
 <?php
